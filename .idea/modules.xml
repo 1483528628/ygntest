@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/comygn/comygn.iml" filepath="$PROJECT_DIR$/comygn/comygn.iml" />
+      <module fileurl="file://$PROJECT_DIR$/mysqltohive/mysqltohive.iml" filepath="$PROJECT_DIR$/mysqltohive/mysqltohive.iml" />
+      <module fileurl="file://$PROJECT_DIR$/sparktest/sparktest.iml" filepath="$PROJECT_DIR$/sparktest/sparktest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/test/test.iml" filepath="$PROJECT_DIR$/test/test.iml" />
+    </modules>
+  </component>
+</project>

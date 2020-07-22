@@ -1,0 +1,14 @@
+ygn_bigdata.bc_qy_traffic_density
+ygn_bigdata.conf_business_relation
+ygn_bigdata.conf_kafka_offset
+ygn_bigdata.moni_efficiency
+ygn_bigdata.oracle_hive_num
+ygn_bigdata.rt_dt_arrival_departure
+ygn_bigdata.rt_dt_sailing_alert
+ygn_bigdata.rt_qy_change_direction_prohibit
+ygn_bigdata.rt_qy_dragging_anchor
+ygn_bigdata.rt_qy_limit_course
+ygn_bigdata.rt_qy_overtaking_prohibit
+ygn_bigdata.rt_qy_prohibit_limit_enter
+ygn_bigdata.rt_qy_prohibit_limit_mooring
+ygn_bigdata.rt_qy_vessel_density

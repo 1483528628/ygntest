@@ -1,0 +1,43 @@
+{
+  "job": {
+    "content": [
+      {
+        "reader": {
+          "name": "mysqlreader",
+          "parameter": {
+            "column": ["{mysql_columns}"],
+            "connection": [
+              {
+                "jdbcUrl": ["jdbc:mysql://192.168.43.20:3306/{source_database}"],
+                "table": ["{source_table}"]
+              }
+            ],
+            "password": "{source_password}",
+            "username": "{source_username}",
+            "where": "{update_field}>='{yyyy-MM-dd%-1d}' and {update_field}<'{yyyy-MM-dd}'"
+          }
+        },
+        "writer": {
+          "name": "hdfswriter",
+          "parameter": {
+            "column": [
+              "{target_column}"
+            ],
+            "compress": "gzip",
+            "defaultFS": "hdfs://192.168.43.20:8020",
+            "fieldDelimiter": "\u0001",
+            "fileName": "{target_table}",
+            "fileType": "orc",
+            "path": "/user/hive/warehouse/mysql2hive",
+            "writeMode": "append"
+          }
+        }
+      }
+    ],
+    "setting": {
+      "speed": {
+        "channel": "1"
+      }
+    }
+  }
+}
