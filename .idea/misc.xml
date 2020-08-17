@@ -4,9 +4,9 @@
     <option name="originalFiles">
       <list>
         <option value="$PROJECT_DIR$/comygn/pom.xml" />
-        <option value="$PROJECT_DIR$/test/pom.xml" />
         <option value="$PROJECT_DIR$/mysqltohive/pom.xml" />
         <option value="$PROJECT_DIR$/sparktest/pom.xml" />
+        <option value="$PROJECT_DIR$/flinktest/pom.xml" />
       </list>
     </option>
   </component>

@@ -8,13 +8,14 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="comygn" />
+        <module name="flinktest" />
         <module name="mysqltohive" />
         <module name="sparktest" />
-        <module name="test" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="comygn" target="8" />
+      <module name="flinktest" target="8" />
       <module name="mysqltohive" target="1.5" />
       <module name="sparktest" target="1.5" />
       <module name="test" target="1.8" />

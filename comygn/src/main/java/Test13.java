@@ -10,7 +10,7 @@ public class Test13 {
 
     public static void main(String[] args) {
         //这是需要获取的文件夹路径
-        String path = "C:/Users/hp/Desktop/见表语句";
+        String path = "C:\\Users\\hp\\Desktop\\etl\\oracle的建表语句";
         getFile(path,0);
     }
 

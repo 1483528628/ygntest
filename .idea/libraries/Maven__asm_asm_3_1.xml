@@ -3,11 +3,12 @@
     <CLASSES>
       <root url="jar://$MAVEN_REPOSITORY$/asm/asm/3.1/asm-3.1.jar!/" />
     </CLASSES>
-    <JAVADOC>
-      <root url="jar://$MAVEN_REPOSITORY$/asm/asm/3.1/asm-3.1-javadoc.jar!/" />
-    </JAVADOC>
+    <JAVADOC />
     <SOURCES>
-      <root url="jar://$MAVEN_REPOSITORY$/asm/asm/3.1/asm-3.1-sources.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../baiduwangpan/wangpan/flink-playgrounds-master.zip!/flink-playgrounds-master/docker/data-generator/src/main/java" />
+      <root url="jar://$PROJECT_DIR$/../baiduwangpan/wangpan/flink-playgrounds-master.zip!/flink-playgrounds-master/docker/ops-playground-image/java/flink-playground-clickcountjob/src/main/java" />
+      <root url="jar://$PROJECT_DIR$/../baiduwangpan/wangpan/flink-playgrounds-master.zip!/flink-playgrounds-master/table-walkthrough/src/main/java" />
+      <root url="jar://$PROJECT_DIR$/../baiduwangpan/wangpan/flink-playgrounds-master.zip!/flink-playgrounds-master/table-walkthrough/src/test/java" />
     </SOURCES>
   </library>
 </component>
