@@ -61,9 +61,9 @@ public class HDFSApi {
      * 主函数
      */
     public static void main(String[] args) throws IOException {
-        List<String> list = listAll("hdfs://node2:8020/user/flink/FlinkTableCheckpoints");
+        List<String> list = listAll(null);
         int i = 0;
-        String result = "checkpoint有问题";
+        String result = "";
         for (String s : list) {
             List<String> list1 = listAll(s);
             for (String s1 : list1) {
@@ -76,11 +76,15 @@ public class HDFSApi {
                 }
             }
         }
-        List<String> list1 = listAll(result);
-        if (list.size() == 0) {
-            String s = result.split("chk-")[1];
-            result = result.replaceAll(s, String.valueOf(Integer.parseInt(s) - 1));
+        if (result != "") {
+            List<String> list1 = listAll(result);
+            if (list1.size() == 0) {
+                String s = result.split("chk-")[1];
+                result = result.replaceAll(s, String.valueOf(Integer.parseInt(s) - 1));
+            }
         }
+
+
         System.out.println(result);
     }
 }

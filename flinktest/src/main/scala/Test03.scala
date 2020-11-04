@@ -18,7 +18,7 @@ object Test03 {
       " 'scan.startup.mode' = 'latest-offset'" +
 //      " ,'scan.startup.timestamp-millis' = '123456'" +
       ")")
-//    fsTableEnv.executeSql("CREATE TABLE `MyUserTable` ( `id` int, `name` VARCHAR, `age` int) WITH ('connector' = 'jdbc','url' = 'jdbc:mysql://192.168.2.234:3306/ygn_bigdata','username'='root','password'='yagena*2020&2019','table-name'='person')")
+    fsTableEnv.executeSql("CREATE TABLE `MyUserTable` ( `id` int, `name` VARCHAR, `age` int) WITH ('connector' = 'jdbc','url' = 'jdbc:mysql://192.168.2.234:3306/ygn_bigdata','username'='root','password'='','table-name'='person')")
 //    fsTableEnv.executeSql("select * from user_log").print()
 //    fsTableEnv.executeSql("select * from MyUserTable").print()
 //    fsTableEnv.executeSql("create TABLE `sinks`(`aname` VARCHAR, `aage` int,`bname` VARCHAR, `bage` int) with ('connector' = 'print')");

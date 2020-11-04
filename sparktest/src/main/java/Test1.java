@@ -26,6 +26,8 @@ public class Test1 {
                 return sdf.format(new Date(Long.parseLong(s) * 1000));
             }
         }, DataTypes.StringType);
+
+
         spark.sql("SELECT  t_start_date, t_end_date, from_unixtime(id) as hhah FROM dwd.dwd_test_dz limit 10").show();
     }
 

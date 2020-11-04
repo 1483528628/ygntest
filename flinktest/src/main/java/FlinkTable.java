@@ -44,9 +44,9 @@ public class FlinkTable {
 //        tableEnv.executeSql("insert into sink select * from user_log");
         tableEnv.executeSql("create TABLE `sinks`(`allnum` STRING,`num` BIGINT) with ('connector' = 'print')");
         tableEnv.executeSql("insert into `sinks` select '暂时总数', COUNT(*) from user_log");
-        while (true) {
-            System.out.println(fsStateBackend);
-        }
+//        while (true) {
+//            System.out.println(fsStateBackend);
+//        }
 //        while (true) {
 //            int i = 0;
 //            if (i == 0) {

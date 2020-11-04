@@ -5,8 +5,10 @@ public class RunShell {
     public static void main(String[] args) {
         try {
 //            String shpath = "C:\\Users\\Administrator\\Desktop\\111.sh";
-            String[] shpath = {"/bin/sh", "-c", "ps -ef |grep mysql"};
-            Process ps = Runtime.getRuntime().exec(shpath);
+//            String shpath = "/home/test/zhang/a.sh";
+//            Runtime.getRuntime().exec("chmod +777 "+shpath);
+//            Process ps = Runtime.getRuntime().exec(shpath);
+            Process ps = Runtime.getRuntime().exec("yarn application --list");
             ps.waitFor();
 
             BufferedReader br = new BufferedReader(new InputStreamReader(ps.getInputStream()));
