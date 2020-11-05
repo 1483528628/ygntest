@@ -8,17 +8,20 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="comygn" />
+        <module name="es" />
         <module name="flinktest" />
+        <module name="houzi" />
         <module name="mysqltohive" />
         <module name="sparktest" />
       </profile>
     </annotationProcessing>
-    <bytecodeTargetLevel>
+    <bytecodeTargetLevel target="8">
       <module name="comygn" target="8" />
+      <module name="es" target="1.8" />
       <module name="flinktest" target="8" />
+      <module name="houzi" target="1.5" />
       <module name="mysqltohive" target="1.5" />
       <module name="sparktest" target="1.5" />
-      <module name="test" target="1.8" />
     </bytecodeTargetLevel>
   </component>
 </project>

@@ -3,7 +3,9 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/comygn/comygn.iml" filepath="$PROJECT_DIR$/comygn/comygn.iml" />
+      <module fileurl="file://$PROJECT_DIR$/es/es.iml" filepath="$PROJECT_DIR$/es/es.iml" />
       <module fileurl="file://$PROJECT_DIR$/flinktest/flinktest.iml" filepath="$PROJECT_DIR$/flinktest/flinktest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/houzi/houzi.iml" filepath="$PROJECT_DIR$/houzi/houzi.iml" />
       <module fileurl="file://$PROJECT_DIR$/mysqltohive/mysqltohive.iml" filepath="$PROJECT_DIR$/mysqltohive/mysqltohive.iml" />
       <module fileurl="file://$PROJECT_DIR$/sparktest/sparktest.iml" filepath="$PROJECT_DIR$/sparktest/sparktest.iml" />
     </modules>

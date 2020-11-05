@@ -27,11 +27,6 @@
         <scope>test</scope>
     </dependency>
     <dependency>
-        <groupId>org.apache.sqoop</groupId>
-        <artifactId>sqoop-client</artifactId>
-        <version>1.99.7</version>
-    </dependency>
-    <dependency>
         <groupId>mysql</groupId>
         <artifactId>mysql-connector-java</artifactId>
         <version>5.1.34</version>
