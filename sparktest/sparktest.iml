@@ -13,6 +13,8 @@
     <orderEntry type="jdk" jdkName="1.8" jdkType="JavaSDK" />
     <orderEntry type="sourceFolder" forTests="false" />
     <orderEntry type="library" name="scala-sdk-2.11.122" level="application" />
+    <orderEntry type="library" name="Maven: org.elasticsearch:elasticsearch-spark-20_2.11:7.2.0" level="project" />
+    <orderEntry type="library" name="Maven: org.scala-lang:scala-library:2.11.12" level="project" />
     <orderEntry type="library" name="Maven: org.apache.spark:spark-sql_2.11:2.4.7" level="project" />
     <orderEntry type="library" name="Maven: com.univocity:univocity-parsers:2.7.3" level="project" />
     <orderEntry type="library" name="Maven: org.apache.spark:spark-sketch_2.11:2.4.7" level="project" />
@@ -147,7 +149,6 @@
     <orderEntry type="library" name="Maven: org.roaringbitmap:RoaringBitmap:0.7.45" level="project" />
     <orderEntry type="library" name="Maven: org.roaringbitmap:shims:0.7.45" level="project" />
     <orderEntry type="library" name="Maven: commons-net:commons-net:3.1" level="project" />
-    <orderEntry type="library" name="Maven: org.scala-lang:scala-library:2.11.12" level="project" />
     <orderEntry type="library" name="Maven: org.json4s:json4s-jackson_2.11:3.5.3" level="project" />
     <orderEntry type="library" name="Maven: org.json4s:json4s-core_2.11:3.5.3" level="project" />
     <orderEntry type="library" name="Maven: org.json4s:json4s-ast_2.11:3.5.3" level="project" />
@@ -253,5 +254,7 @@
     <orderEntry type="library" name="Maven: org.apache.atlas:atlas-plugin-classloader:1.0.0" level="project" />
     <orderEntry type="library" name="Maven: cglib:cglib:2.2.2" level="project" />
     <orderEntry type="library" name="Maven: asm:asm:3.3.1" level="project" />
+    <orderEntry type="library" name="Maven: junit:junit:4.13" level="project" />
+    <orderEntry type="library" name="Maven: org.hamcrest:hamcrest-core:1.3" level="project" />
   </component>
 </module>
